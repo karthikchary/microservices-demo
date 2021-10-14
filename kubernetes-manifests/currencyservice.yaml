@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: development/currencyservice:latest
+        image: harbor.devopsdoor.com/development/currencyservice:latest
         ports:
         - name: grpc
           containerPort: 7000
