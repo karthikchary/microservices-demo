@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: server
-        image: shippingservice
+        image: kalaipanditest/shippingservice:ver_1.0.0
         ports:
         - containerPort: 50051
         env:
