@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: kalaipanditest/checkoutservice:ver_1.0.0
+          image: development/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
