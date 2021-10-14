@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: development/redis:latest
+        image: harbor.devopsdoor.com/development/redis:latest
         ports:
         - containerPort: 6379
         readinessProbe:
