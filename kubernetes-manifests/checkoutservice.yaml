@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: development/checkoutservice:latest
+          image: harbor.devopsdoor.com/development/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
