@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:alpine
+        image: kalaipanditest/redis:ver_1.0.0
         ports:
         - containerPort: 6379
         readinessProbe:
